@@ -9,20 +9,20 @@
 <body>
     <div class="form-container">
         <h1>Registro de Invitados</h1>
-        <form id="formulario-invitados" action="http://localhost:3000/registro" method="POST">
+        <form id="formulario-invitados" action="https://nombre-de-tu-aplicacion.onrender.com/registro" method="POST">
             <div class="form-group">
                 <label for="nombre">Tu nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
             </div>
             <div class="form-group" id="acompanantes-container">
-                <label for="acompanantes">Nombre de tus acompañantes:</label>
+                <label for="acompanantes">Nombre de tus acompaÃ±antes:</label>
                 <div class="acompanante-row">
-                    <input type="text" id="acompanantes" name="acompanantes[]" placeholder="Nombre del acompañante">
+                    <input type="text" id="acompanantes" name="acompanantes[]" placeholder="Nombre del acompaÃ±ante">
                 </div>
             </div>
-            <button type="button" id="add-acompanante-btn">Añadir acompañante</button>
+            <button type="button" id="add-acompanante-btn">AÃ±adir acompaÃ±ante</button>
             <div class="form-group">
-                <label for="cancion">Canción que te gustaría escuchar:</label>
+                <label for="cancion">CanciÃ³n que te gustarÃ­a escuchar:</label>
                 <input type="text" id="cancion" name="cancion">
             </div>
             <button type="submit">Registrar</button>
